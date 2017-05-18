@@ -1,0 +1,28 @@
+{
+ 
+  "jsonrpc": "2.0",
+ 
+  "method": "query",
+ 
+  "params": {
+ 
+    "type": 1,
+ 
+   "chaincodeID": {
+ 
+      "name": "#CHAINCODENAME"
+ 
+    },
+    "ctorMsg": {
+      "function": "read",
+      "args": [
+            "#USERID"
+    ]
+    },
+ 
+    "secureContext": "#USERID"
+ 
+  },
+ 
+  "id": 1
+}

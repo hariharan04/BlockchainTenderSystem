@@ -1,0 +1,28 @@
+{
+ 
+  "jsonrpc": "2.0",
+ 
+  "method": "invoke",
+ 
+  "params": {
+ 
+    "type": 1,
+ 
+   "chaincodeID": {
+ 
+      "name": "#CHAINCODENAME"
+ 
+    },
+    "ctorMsg": {
+      "function": "logging",
+      "args": [
+            "#ARG1","#ARG2","#ARG3"
+    ]
+    },
+ 
+    "secureContext": "#USERID"
+ 
+  },
+ 
+  "id": 1
+}

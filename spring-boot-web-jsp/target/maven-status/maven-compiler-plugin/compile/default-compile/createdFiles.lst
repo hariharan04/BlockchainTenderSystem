@@ -1,0 +1,9 @@
+com\ibm\Bids.class
+com\ibm\SpringBootWebApplication.class
+com\ibm\BidValues.class
+com\ibm\BlockChainUIConstants.class
+com\ibm\BlockChainLog.class
+com\ibm\WelcomeController.class
+com\ibm\Result.class
+com\ibm\ResJsonObj.class
+com\ibm\TenderAward.class

@@ -1,0 +1,18 @@
+# Server configuration
+server:
+  port: 8090
+ 
+# Cloudant Confiugration
+cloudant:
+  username: c05085b6-93b8-46e8-adfd-a34dcd586038-bluemix
+  password: 5daede373b552bb671ac1a6966999d34e06c0152c06995338757d5154f495faa
+  host: http://c05085b6-93b8-46e8-adfd-a34dcd586038-bluemix.cloudant.com
+  port: 443
+  url: https://c05085b6-93b8-46e8-adfd-a34dcd56038-bluemix:5daede373b552bb671ac1a6966999d34e06c0152c06995338757d5154f495faa@c05085b6-93b8-46e8-adfd-a34dcd586038-bluemix.cloudant.com
+# application Confiugration
+applications:
+   - name: MyMicroserviceBoot
+     random-route: true
+     path: target/MyMicroserviceBoot-0.0.1.jar
+     memory: 512M
+     instances: 1
